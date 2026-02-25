@@ -7,7 +7,10 @@ This activity is your first chance to practice AI-assisted debugging on a codeba
 You do not need to understand everything at once. Approach the app as a curious investigator, work with an AI assistant to explain what you find, and make targeted improvements.
 
 ---
+Summary
+The core concept of this assignment is for students to understand how to use AI assistants like GitHub Copilot to debug and refactor logic and state issues within an existing Python application. Students are most likely to struggle with distinguishing between "broken" code and "intentional" behavior, especially when dealing with the specific thresholds and keyword requirements for song classification. AI proves highly helpful for explaining complex blocks of code and suggesting structural refactors, but it can be misleading by providing confident-sounding fixes that are incomplete or fail to account for edge cases in the search and statistics logic. To guide a student without giving the answer, I would ask them to trace a single "misclassified" song from the UI back to the specific conditional logic in playlist_logic.py to see which rule it is failing to trigger. By focusing on one clear discrepancy at a time, students can learn to treat AI suggestions as hypotheses to be verified rather than absolute solutions. This process emphasizes the importance of manual testing and iterative refinement in an AI-assisted workflow.
 
+---
 ## How the code is organized
 
 ### `app.py`  
